@@ -10,8 +10,8 @@ public class Main {
         double[] array = new double[4];
         for (int i = 0; i < array.length; i++) {
             array[i] = i + 2.5;
-            System.out.println(array[i] +  " печать всего массиа");
+            System.out.print(array[i] + " ");
         }
-        System.out.println(array[0] + " печать первого элента");
+        System.out.println("\n" + array[0] + " печать первого элента");
     }
 }
