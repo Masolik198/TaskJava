@@ -2,7 +2,6 @@ package org.example;
 
 /*
 Определить класс Reader, хранящий такую информацию о пользователе библиотеки:
-
 ФИО,
 номер читательского билета,
 факультет,
@@ -18,11 +17,22 @@ package org.example;
  */
 
 public class Main {
-    public static void main(String[] args) {
-        Reader user = new Reader("Bruev", "12", "5", "02/0187", "912");
-        int userBook = 10;
-
-        System.out.println(user.returnBook());
+        static void userBook(int... book ) {
+        System.out.println("Количество: ");
+        for(int a : book) {
+            System.out.println(a + " ");
         }
+        System.out.println();
+    }
+    public static void main(String[] args) {
 
-}
+            userBook();
+            userBook(1);
+            userBook(1, 2);
+            userBook(new int[]{1, 3});
+        Reader[] array = new Reader[5];
+        for(int i = 0; i < 5; i++) {
+            array[i] = new Reader();
+        }
+        }
+    }
