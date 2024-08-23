@@ -13,6 +13,12 @@ public class Supervisor extends Employee{
     public String getJobTitle() {
         return jobTitle;
     }
+
+    /**
+     * Функция повышения зарплаты
+     * @param employees это сотрудник
+     * @param def это на сколько повышаем
+     */
     public static void increaseSalary(List<Employee> employees, int def) {
         for(Employee employee: employees) {
             if(!(employee instanceof Supervisor)) {
