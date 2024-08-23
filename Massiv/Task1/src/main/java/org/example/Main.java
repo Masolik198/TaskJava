@@ -15,5 +15,5 @@ public class Main {
         weekDay[5] = "Satuday";
         weekDay[6] = "Sanday";
         System.out.println(weekDay[6]);
-        }
     }
+}

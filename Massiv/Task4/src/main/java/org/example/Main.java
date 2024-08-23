@@ -13,10 +13,10 @@ public class Main {
         char[][] array = new char[4][2];
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 2; j++) {
-            array[i] = new char[]{(char) (random.nextInt(26) + 'a')};
-            array[j] = new char[]{(char) (random.nextInt(26) + 'a')};
-            System.out.print(array[i]);
-        }
+                array[i] = new char[]{(char) (random.nextInt(26) + 'a')};
+                array[j] = new char[]{(char) (random.nextInt(26) + 'a')};
+                System.out.print(array[i]);
+            }
             System.out.println();
         }
     }
