@@ -8,7 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Task2" />
         <module name="Task1" />
+        <module name="Task4" />
         <module name="Task3" />
+        <module name="Task5" />
         <module name="Task7" />
       </profile>
     </annotationProcessing>
