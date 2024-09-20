@@ -1,10 +1,10 @@
 package org.example;
 
 public abstract class Fruit {
-    public int weight;
-    public int price;
+    public double weight;
+    public double price;
 
-    public Fruit(int weight, int price) {
+    public Fruit(double weight, double price) {
         this.weight = weight;
         this.price = price;
     }
@@ -13,11 +13,11 @@ public abstract class Fruit {
         System.out.println("Made in Russia");
     }
 
-    public abstract int getPrice();
+    public abstract double getPrice();
 
-    abstract int getprice();
+    abstract double getprice();
 
-    public int getWeight() {
+    public double getWeight() {
         return weight;
     }
 }

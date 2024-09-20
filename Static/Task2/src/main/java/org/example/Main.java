@@ -13,15 +13,21 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        int weight = 1;
-        int price = 1;
+        double weight = 1;
+        double price = 1;
 
         Fruit apple = new Apple(weight, price);
+        Fruit pear = new Pear(weight, price);
+        Fruit apricot = new Apricot(weight, price);
 
         Fruit basket1 = (apple);
+        Fruit basket2 = (pear);
+        Fruit basket3 = (apricot);
 
         apple.printManufacturerInfo();
         System.out.println(basket1.getPrice());
-
+        System.out.println(basket2.getPrice());
+        System.out.println(basket3.getPrice());
+        System.out.println(basket1.getPrice() + basket2.getPrice() + basket3.getPrice());
     }
 }

@@ -1,14 +1,14 @@
 package org.example;
 
-public class Apple extends Fruit {
+public class Apricot extends Fruit {
 
-    public Apple(double weight, double price) {
+    public Apricot(double weight, double price) {
         super(weight, price);
     }
 
     @Override
     public double getPrice() {
-        return (price * 189) * (weight * 1.2);
+        return (price * 170) * (weight * 0.88);
     }
 
     @Override
